@@ -39,10 +39,11 @@ class ImgFigure extends React.Component{
                 <img src={this.props.data.imageURL} alt={this.props.data.title} />
                 <figcaption>
                     <h2>{this.props.data.title}</h2>
-                    <div className="img-back">
-                        {this.props.data.desc}
-                    </div>
+                   
                 </figcaption>
+                <div className="img-back">
+                        {this.props.data.desc}
+                </div>
             </figure>
         )
     }
